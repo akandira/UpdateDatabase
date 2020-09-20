@@ -136,7 +136,7 @@ def mat_section(ball_id='MATX-BM005'):
             'radio_frequency',
             ]]
         df_icp = df_icp.T.reset_index()
-        df_icp = df_icp.rename(columns={'index': 'HALL REPORT', 0: '',
+        df_icp = df_icp.rename(columns={'index': 'ICP REPORT', 0: '',
                                1: ''})
 
         # create a side by side display of tables with a heading
