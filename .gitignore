@@ -1,3 +1,5 @@
-*.ini
+createconfig.py
 *.log
 __*
+.ipy*
+.IPy*
