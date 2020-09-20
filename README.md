@@ -4,15 +4,16 @@
  - startup.py: script that should be run on startup to transfer records
    from a folder to database
    
-  - watchdog.py: script that monitors and uploads any new reports in target directory 
+  - watchdog.py: script that monitors target directory and uploads any new reports to the database
   
    - processing.py: contains helper functions to process lab reports
 
 **Visualization:** This folder contains visualization related script and Jupyter Notebook to visualize results.
-- app.py:  Helper functions to visualize data in database
-- Visualization Notebook: Notebook to query database and visualize results
+- app.py:  Helper functions to visualize data in the database
+- VisualizationNotebook: Notebook to query database and visualize results
  
  **config.ini:** Configuration file to provide user defined settings
+ 
  **requirements.txt:** file that contains dependencies for successful functioning of the application
  ## How to run
 The following assumes that you have Python 3.8.x installed on your system and have access to Jupyter Notebook. If not, please install a compatible environment on your system such as Anaconda and setup Jupyter Notebook. 
@@ -23,8 +24,10 @@ The following assumes that you have Python 3.8.x installed on your system and ha
 ```
  Step-2 Edit the config.ini file to provide user settings for your system.
 ![enter image description here](https://user-images.githubusercontent.com/43352808/93659630-16558680-f9fc-11ea-98f6-0718c5401a2a.png)
- Step-3: Run startup.py script to load lab reports from target folder to the database. Check the log file generated in the logfile path specified to get status of the upload.
+
+Step-3: Run startup.py script to load lab reports from target folder to the database. Check the log file generated in the logfile path specified to get status of the upload.
  ![logfileCapture](https://user-images.githubusercontent.com/43352808/93659703-15712480-f9fd-11ea-9d69-b08dd771abef.PNG) 
+ 
  Step-4: Open Visualization Notebook and run the cells to see visualization and perform database queries. The graphs are interactive feel free to hover, zoom in, etc. to see property values!
  ![fig1](https://user-images.githubusercontent.com/43352808/93659837-6a616a80-f9fe-11ea-82de-a185c146dad8.PNG)
  ![fig3](https://user-images.githubusercontent.com/43352808/93659859-8a912980-f9fe-11ea-9e9b-2c87135836a3.PNG)
@@ -76,9 +79,13 @@ Within this ingestion pipeline, we can further make the following improvements t
 - ensure comprehensive logging throughout the pipeline to identify errors, warnings, incompatibilities to aid in quick fixes
 
 How would you manage the project implementation?
+
 Stage one would be to gather requirements from the customer and come up with design.
+
 Stage two would be to show a mock up design to the customer to get their approval.
+
 Stage three after consolidating, design a pipeline and perform tests to check integrity.
+
 Stage four would be deployment and make any modifications if required
 maintain the system.  
 
