@@ -23,13 +23,14 @@ The following assumes that you have Python 3.8.x installed on your system and ha
  pip install -r requirements.txt
 ```
  Step-2 Edit the config.ini file to provide user settings for your system.
-![enter image description here](https://user-images.githubusercontent.com/43352808/93659630-16558680-f9fc-11ea-98f6-0718c5401a2a.png)
+
+![config](https://user-images.githubusercontent.com/43352808/93659630-16558680-f9fc-11ea-98f6-0718c5401a2a.png)
 
 Step-3: Run startup.py script to load lab reports from target folder to the database. Check the log file generated in the logfile path specified to get status of the upload.
  ![logfileCapture](https://user-images.githubusercontent.com/43352808/93659703-15712480-f9fd-11ea-9d69-b08dd771abef.PNG) 
  
  Step-4: Open Visualization Notebook and run the cells to see visualization and perform database queries. The graphs are interactive feel free to hover, zoom in, etc. to see property values!
- ![fig1](https://user-images.githubusercontent.com/43352808/93659837-6a616a80-f9fe-11ea-82de-a185c146dad8.PNG)
+ ![fig1](https://user-images.githubusercontent.com/43352808/93717853-4486b380-fb2d-11ea-8625-1bec0c44986a.PNG)
  ![fig3](https://user-images.githubusercontent.com/43352808/93659859-8a912980-f9fe-11ea-9e9b-2c87135836a3.PNG)
  ![fig2](https://user-images.githubusercontent.com/43352808/93659899-b0b6c980-f9fe-11ea-85b2-4a4bdc71223a.PNG)
 
