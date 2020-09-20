@@ -16,7 +16,7 @@
  
  **requirements.txt:** file that contains dependencies for successful functioning of the application
  ## How to run
-The following assumes that you have Python 3.8.x installed on your system and have access to Jupyter Notebook. If not, please install a compatible environment on your system such as Anaconda and setup Jupyter Notebook. 
+The following assumes that you have Python 3.8.x installed on your system and have access to Jupyter Notebook. If not, please install a compatible environment on your system such as Anaconda and setup Jupyter Notebook. Additionally, the code assumes the PostgreSQL tables for Material Procurement, Ball milling, and Hot press are already present in your database. (If not, please use ```\i processdb.sql``` in the ```psql``` shell to import the tables from the processdb.sql file). 
 
  Step-1 : Run below command to download all the dependent libraries to the Python environment.
  ```
