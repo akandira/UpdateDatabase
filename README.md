@@ -94,6 +94,6 @@ Stage two would be to show a mock up design to the customer to get their approva
 
 Stage three after consolidating, design a pipeline and perform tests to check integrity.
 
-Stage four would be deployment and make any modifications if required maintain the system.  
+Stage four would be deployment and make any modifications if required, maintain the system.  
 
 Constant monitoring of the operational logs and user feedback would enable corrections and adjustments to the aforementioned implementation. 
