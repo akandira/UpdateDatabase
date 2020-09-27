@@ -48,7 +48,7 @@ What are potential bottlenecks or roadblocks you might run into?
 
 Broadly, the most significant roadblocks for an integrated pipeline would be if the type or format of data is changed frequently, # of measurements change, recording of parameters is inconsistent (e.g. different units are used for the same measurement):
 - changes in format of report, e.g. adding new parameters
-Additionally, depending on the company and its interests, if the security of data/lab reports is important, we would have to think carefully about authorized access to data, which is better to incorporate throughout the system from the beginning.
+- Additionally, depending on the company and its interests, if the security of data/lab reports is important, we would have to think carefully about authorized access to data, which is better to incorporate throughout the system from the beginning.
 
 The potential bottlenecks would be related to the size of data and # of users accessing a web-based app, for example: 
 - large number of users requesting DB queries could slow down web-based apps
