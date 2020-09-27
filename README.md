@@ -62,6 +62,7 @@ Specifically addressing the bottlenecks of the current approach:
 4) For the Python implementation itself, aggressive testing is needed to ensure minimal errors in a production environment. This could be, for example, unit and integration testing for all the various functionalities. 
 
 What would a possible solution design look like?
+
 The design would depend on answers to questions raised in the first part, of course. But if we anticipate a small or medium-sized company generating ~10 GB of data per day across the various measurements, the following ETL pipeline might be considered:
 
 On a dedicated computer or a small cluster of 2-4 computers: 
